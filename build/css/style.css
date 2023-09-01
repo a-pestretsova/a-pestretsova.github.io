@@ -4242,21 +4242,17 @@ button,
 
 .reviews__btn-wrapper {
   position: relative;
+  display: block;
 }
 
 .reviews__btn {
   position: absolute;
-  top: -22vh;
+  top: -147px;
   width: 56px;
   height: 56px;
   border-radius: 50%;
   outline: none;
   cursor: pointer;
-}
-@media (max-width: 1199px) {
-  .reviews__btn {
-    top: -147px;
-  }
 }
 @media (max-width: 767px) {
   .reviews__btn {
